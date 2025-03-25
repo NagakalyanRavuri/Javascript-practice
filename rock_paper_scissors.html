@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <p>Rock Paper and Scissors</p>
+    <button
+    onclick=" const a = Math.random();
+    if(a<=1/3)
+    alert('Your Choice:ROCK \nComputer choice:ROCK \nOutput:Tie');
+else if(a>1/3 && a<=2/3){
+    alert('Your Choice:ROCK \nComputer choice:Paper \nOutput:Computer won');
+}
+else
+alert('Your Choice:ROCK \nComputer choice:Scissors \nOutput:You won')"
+    >Rock</button>
+    <button
+    onclick=" const b = Math.random();
+    if(b<=1/3)
+    alert('Your Choice:Paper \nComputer choice:ROCK \nOutput:You won');
+else if(b>1/3 && b<=2/3){
+    alert('Your Choice:Paper \nComputer choice:Paper \nOutput:Tie ');
+}
+else
+alert('Your Choice:Paper \nComputer choice:Scissors \nOutput:Computer won')"
+    >Paper</button>
+    <button
+    onclick=" const c = Math.random();
+    if(c<=1/3)
+    alert('Your Choice:Scissors \nComputer choice:ROCK \nOutput:Computer won');
+else if(c>1/3 && c<=2/3){
+    alert('Your Choice:Scissors \nComputer choice:Paper \nOutput:You won ');
+}
+else
+alert('Your Choice:Scissors \nComputer choice:Scissors \nOutput:Tie')"
+    >Scissors</button>
+  
+
+    <script>
+        let mycount = 0;
+        let comcount = 0;
+    
+    </script>
+</body>
+</html>
