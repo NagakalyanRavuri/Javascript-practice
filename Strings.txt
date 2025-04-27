@@ -1,0 +1,20 @@
+Strings ->
+
+1.Strings are sequence of characters
+2.Syntax: "Hello world"
+
+String Methods ->
+
+1.charAt(index) - gives the character at that index
+2.indexOf('character') - gives the index of that character
+3..length - gives length of the string 
+4.trim() - removes the white space in starting and ending
+5.toUpperCase() - convert string to toUpperCase
+6.toLowerCase() - convert string to lowercase 
+7.repeat(number) - repeat the string number times
+8.startsWith(" ") - checks wheter the string starts with emptyspace or not
+9.endswith(" ") - checks ends with emptyspace or not
+10.includes(" ") - checks whether the string contains any emptyspace or not
+11.replaceAll("a","") - replace all characters a with ""
+12.String.slice(start,end(exclusive)) - take the string form start to end-1;
+
