@@ -1,0 +1,14 @@
+JavaScript Notes:
+
+VARIABLES-
+SYNTAX: let variable_name = (value you want to store);
+
+"let" - will create a variable.
+variable is a container which is used to store values.
+we can't start our variable with number because JS thinks it is a number not variable.
+we can't start with special characters like@,#,$ etc..
+we can't use special words for variable names like let.
+
+
+
+
